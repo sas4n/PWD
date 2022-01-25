@@ -1,0 +1,91 @@
+body {
+  background-color: bisque;
+
+  /* to make body cover full page */
+  height: 100vh;
+  width: 100vh;
+  margin: 0;
+}
+
+.memory-game,
+.chat-app,
+.quiz-app {
+  position: absolute;
+}
+
+.memory-game-container {
+  position: relative;
+  height: 350px;
+  width: 350px;
+}
+
+.game-section {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 260px;
+  width: 260px;
+}
+
+.result {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin: auto;
+}
+
+.memory-game-div {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  left: 700px;
+}
+
+.chat-app-div {
+  cursor: pointer;
+  position: absolute;
+  top: 45px;
+  left: 700px;
+}
+
+.quiz-app-div {
+  cursor: pointer;
+  position: absolute;
+  top: 85px;
+  left: 700px;
+}
+
+.bottom-menu-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  height: 50px;
+  padding: 5px;
+}
+
+#memory-game-icon,
+#chat-app-icon,
+#quiz-app-icon {
+  margin-right: 10px;
+}
+
+img {
+  margin: auto;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+img:hover {
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.hidden {
+  display: none;
+}
+
